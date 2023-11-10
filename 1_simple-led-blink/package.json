@@ -1,0 +1,13 @@
+{
+  "name": "iot-esp8266-demo",
+  "version": "1.0.0",
+  "license": "MIT",
+  "author": "sonnd08@gmail.com",
+  "private": true,
+  "scripts": {
+    "im": "arch -arm64 brew install platformio",
+    "phelp": "pio -h",
+    "dl": "pio device list",
+    "up": "pio run -t upload"
+  }
+}

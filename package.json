@@ -1,13 +1,14 @@
 {
   "name": "iot-esp8266-demo",
   "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:sonnd08/iot-control-devices-with-esp8266-workshop.git",
+  "author": "Nguyễn Đình Sơn <sonnd08@gmail.com>",
   "license": "MIT",
-  "author": "sonnd08@gmail.com",
-  "private": true,
   "scripts": {
     "im": "arch -arm64 brew install platformio",
-    "help": "pio -h",
+    "phelp": "pio -h",
     "dl": "pio device list",
-    "up": "pio run -t upload"
+    "up1": "cd 1_simple-led-blink && yarn up"
   }
 }
